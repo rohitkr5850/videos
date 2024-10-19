@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff3b47;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav button {
+    background-color: #ff3b47;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.success-story {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f2f2f2;
+}
+
+.story-text {
+    max-width: 45%;
+}
+
+.story-text h1 {
+    color: #4c4cb4;
+    font-size: 36px;
+}
+
+.story-text p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.story-text button {
+    background-color: #ff3b47;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.story-video iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.story-video p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.story-video span {
+    color: gray;
+}
+
+footer {
+    text-align: center;
+    background-color: #4c4cb4;
+    color: white;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
